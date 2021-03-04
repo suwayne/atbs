@@ -52,8 +52,23 @@
 
 
 """for loops and range function"""
-print('My name is ')
-for i in range(5):
-    print('Jimmy Five Times(' + str(i) ')')
+
+# print('My name is ')
+# for i in range(5):
+#     print('Jimmy Five Times (' + str(i) + ')')
+    
+"""the Karl Fredrich Gauss Solution"""
+# total = 0
+# for num in range(101):
+#     total = total + num
+# print(total)
+
+"""An equivalant while loop"""
+print('my name is: ')
+i = 0
+
+while i < 5:
+    print('Jimmy  five times (' + str(i) +  ')')
+    i = i + 1
     
 
