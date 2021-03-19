@@ -11,7 +11,6 @@
 #     spam = spam + 1
 
 # name = ''
-
 # while name != 'your name':
 #     print('please type your name.')
 #     name = input()
@@ -25,16 +24,16 @@
 
 # print('Thank you!')
 
-# while True:
-#     print('Who are you?')
-#     name = input()
-#     if name != 'Joe':
-#         continue
-#     print('Hello, Joe. What is the password? (It is a fish.)')
-#     password = input()
-#     if password == 'swordfish':
-#         break
-# print('Access granted.')
+while True:
+    print('Who are you?')
+    name = input()
+    if name != 'Joe':
+        continue
+    print('Hello, Joe. What is the password? (It is a fish.)')
+    password = input()
+    if password == 'swordfish':
+        break
+print('Access granted.')
 
 """TRUTHY AND FALSEY VALUES"""
 
@@ -115,3 +114,7 @@ while True:
     print('You typed ' + response + '.')
 
 
+name = 'Osasu'
+
+if name == 'Osasu':
+  print('Hello, Osasu')
