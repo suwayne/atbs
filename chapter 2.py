@@ -95,12 +95,23 @@
 
 """calling the range function to count with interals of two"""
 
-for i in range(0, 20, 2):
-    print(i)
+# for i in range(0, 20, 2):
+#     print(i)
 
 """more with the for loop"""
 
-for i in range(5, -1, -1):
-    print(i)
+# for i in range(5, -1, -1):
+#     print(i)
 
-    
+"""ending programs abrubtly using the sys() function."""
+
+import sys
+
+while True:
+    print('Type exit to exit.')
+    response  = input()
+    if response == 'exit':
+        sys.exit()
+    print('You typed ' + response + '.')
+
+
