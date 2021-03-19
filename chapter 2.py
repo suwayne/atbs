@@ -64,11 +64,43 @@
 # print(total)
 
 """An equivalant while loop"""
-print('my name is: ')
-i = 0
+# print('my name is: ')
+# i = 0
 
-while i < 5:
-    print('Jimmy  five times (' + str(i) +  ')')
-    i = i + 1
+# while i < 5:
+#     print('Jimmy  five times (' + str(i) +  ')')
+#     i = i + 1
+
+"""Another example to add numbers from 0 to 100"""
+
+# total = 0
+# for num in range(101):
+#     total = total + num
+
+# print(total)
+
+"""Five times code using a while loop"""
+
+# print('My name is')
+# i = 0
+
+# while i < 5:
+#     print('Jimmy Five times (' + str(i) + ')')
+#     i = i + 1
+
+"""starting, stopping and stepping"""
+
+# for i in range(12, 16):
+#     print(i)
+
+"""calling the range function to count with interals of two"""
+
+for i in range(0, 20, 2):
+    print(i)
+
+"""more with the for loop"""
+
+for i in range(5, -1, -1):
+    print(i)
+
     
-
