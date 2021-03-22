@@ -1,1 +1,6 @@
-print('cats', 'dogs', 'mice', sep = ',')
+def spam():
+    print(eggs)
+eggs = 42
+spam()
+print(eggs)
+
